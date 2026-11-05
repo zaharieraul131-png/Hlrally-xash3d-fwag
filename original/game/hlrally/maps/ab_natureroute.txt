@@ -1,0 +1,36 @@
+*******************************************************
+ab_natureroute 
+by X-Tender
+http://www.fuchtelworld.de/
+http://www.hlrally.net/
+*******************************************************
+
+The very sexy confines of the nature route are before you.
+Choose your vehicle wisely, there are a number of long straights
+and very tight corners, and difficult terrain. One of the most
+challenging Rally Races in the championship.
+
+*******************************************************
+Map Description
+Author(s):	Paul Kamma, aka X-Tender
+			Original Design
+		Michael Danzo, aka Creme
+			22 November, 2003
+			Fixed textures, incorporated Sarcazms entity changes.
+			6 March, 2003
+			Many tweaks to entitys and textures
+			6 July, 2003
+			More tweaks, fixed brushwork on corners
+			10 July, 2003
+			Heavy brush tweaks to make areas more playable/fair
+		Jimmy Headdon, aka Denzil
+			Texturing and entity placement
+
+*******************************************************
+
+Please do not use this level as a base for other maps.
+All rights reserved, all enquiries please visit
+http://www.fuchtelworld.de/
+Copyright (C) 2002, 2003 
+*******************************************************
+

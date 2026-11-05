@@ -1,0 +1,47 @@
+**********************************************
+hp_freeway - Freeway
+by Bronts - bronts@hlrally.net
+**********************************************
+Map Information
+Title		:  Freeway (build 1.0)
+Author(s)	:  Luke Bronts
+			Original design
+
+Email Address	:  bronts@hlrally.net
+
+Filename	:  hp_freeway.bsp
+Filesize	:  1.16 megs unzipped
+Date		:  8/05/2004
+Description	:  Hot Potato Arena
+
+**********************************************
+Player Information
+
+Single Player		:  No
+Multiplayer		:  Yes
+Difficulty Setting 	:  n/a
+Map Type                :  Hot Potato
+New Textures		:  Yes
+New Sounds		:  No
+
+**********************************************
+Construction
+
+Base		:  Scratch
+Editor Used	:  Valve Hammer Editor 3.4
+Known bugs	:  None
+
+**********************************************
+Distribution
+
+	Don't use this level as a base. Contact me if you have any questions;
+	bronts@hlrally.net
+
+**********************************************
+Special Thanks
+	
+	Special thanks to blazeeer for the textures.
+	The rest of the HL-Rally team for their support.
+
+**********************************************
+

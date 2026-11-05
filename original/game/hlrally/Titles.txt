@@ -1,0 +1,917 @@
+//TITLES FOR HALF-LIFE
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// effect -1 is print center (normal text in center of screen)
+// effect -2 is print notify (normal text in top left of screen)
+// effect -3 is print center (text piped straight into console)
+// effect -4 is print talk (normal text in lower middle of screen)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+// the only flags TFC uses are the effect value -4 through -1, for screen positions
+
+
+// game text
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////
+// Game messages
+
+Game_ceasefire
+{
+CEASE FIRE MODE
+}
+
+Game_christmas
+{
+MERRY CHRISTMAS!!
+}
+
+Game_happybday
+{
+HAPPY BIRTHDAY TEAMFORTRESS!
+}
+
+Game_nocolorchange
+{
+No Color changing allowed in deathmatch.
+}
+
+Game_cantplayclass
+{
+You cannot play that playerclass on this map. 
+}
+
+Game_spydisabled
+{
+The spy class has been disabled on the server by the administrator.
+}
+
+Game_enoughofclass
+{
+Your team already has enough of that class.
+}
+
+Game_nochangeclass
+{
+You cannot change class.
+}
+
+Game_changeclass
+{
+After dying, you will return as a %s
+}
+
+Game_mustteam
+{
+You must join a team first.
+}
+
+Game_nolives
+{
+You have no lives left.
+}
+
+Game_random
+{
+Random Playerclass.
+}
+
+Game_playingas
+{
+%s is playing as a %s
+}
+
+Game_legalclasses
+{
+Legal Classes for your team are:
+}
+
+Game_noteams
+{
+Teamplay is not On, Teams are inactive.
+}
+
+Game_onlyteams
+{
+There can be only %s teams on this map.
+}
+
+Game_alreadyteam
+{
+You're already in Team %s.
+}
+
+Game_teamfull
+{
+That team is full. Pick another.
+}
+
+Game_noteamstart
+{
+You can't start a new team with your color, since another is already using that color. 
+Change your color, then try again.
+}
+
+Game_others
+{
+The other members of your team are:
+}
+
+Game_othersdetails
+{
+   %s : %s
+}
+
+Game_noothers
+{
+There are no other players on your team.
+}
+
+Game_nolives
+{
+NO lives left, returning to Observer mode.\n
+}
+
+Game_lastlife
+{
+LAST life.
+}
+
+Game_Xlives
+{
+%s lives left.
+}
+
+Game_tillrespawn
+{
+%s seconds till respawn.
+}
+
+Game_battleid
+{
+Your Battle ID is %s
+}
+
+Game_welcomeback
+{
+Welcome Back!
+}
+
+Game_locked
+{
+Closed Server. Clan Battle in progress.
+}
+
+Game_playerjoin
+{
+%s has joined the game
+}
+
+Game_startedteam
+{
+%s has started Team %s.
+}
+
+Game_joinedteam
+{
+%s has joined Team %s.
+}
+
+Game_changedteam
+{
+%s has changed to Team %s.
+}
+
+Game_minsleft
+{
+%s minutes left till Match begins.
+}
+
+Game_oneminleft
+{
+one minute left till Match begins.
+}
+
+Game_thirtysecleft
+{
+30 seconds left till Match begins.
+}
+
+Game_secsleft
+{
+%s seconds.
+}
+
+Game_onesec
+{
+1 second.
+}
+
+Game_matchbegin
+{
+MATCH BEGINS NOW
+}
+
+Game_matchlocked
+{
+GAME IS NOW LOCKED
+}
+
+Game_resumefire
+{
+RESUME FIRE
+}
+
+Scout
+{
+SCOUT
+}
+
+Sniper
+{
+SNIPER
+}
+
+Soldier
+{
+SOLDIER
+}
+
+Demoman
+{
+DEMOMAN
+}
+
+Medic
+{
+MEDIC
+}
+
+HWGuy
+{
+HWGUY
+}
+
+Pyro
+{
+PYRO
+}
+
+Spy
+{
+SPY
+}
+
+Engineer
+{
+ENGINEER
+}
+
+RandomPC
+{
+Random Playerclass
+}
+
+Random
+{
+RANDOM
+}
+
+Civilian
+{
+CIVILIAN
+}
+
+Observer
+{
+OBSERVER
+}
+
+
+
+//////////////////////////////////////////////////////////////////////
+// Admin
+
+Admin_nopassword
+{
+Server has no Admin password set (tfc_adminpwd)
+}
+
+Admin_access
+{
+Admin Password accepted. Admin rights granted.
+}
+
+Admin_badpassword
+{
+Admin Password incorrect.
+}
+
+Admin_noplayers
+{
+Players In Game : %s
+}
+
+Admin_noteamplayers
+{
+Players In Team %s: %s
+}
+
+Admin_gameempty
+{
+No other players in the game.
+}
+
+Admin_kickban
+{
+%s (%s)  KICK/BAN/NEXT?
+}
+
+Admin_listip
+{
+%s (%s)
+}
+
+Admin_endlist
+{
+End of player list
+}
+
+Admin_kick
+{
+%s was kicked by %s
+}
+
+Admin_ban
+{
+%s was banned by %s
+}
+
+Admin_ceasefire
+{
+CEASE FIRE
+}
+
+AKick_kicked
+{
+%s was kicked for killing teammates.
+}
+
+AKick_warn
+{
+Kill one more teammate, and you will be
+removed from this server.
+}
+
+
+
+
+Item_missing
+{
+Item is missing.
+}
+
+
+
+
+
+
+
+Menu_class
+{
+=== Choose Your Class ===
+
+}
+
+Menu_repeathelp
+{
+Press 8 to see this help again
+}
+
+Menu_scoutdetails
+{
+SCOUT Details:               
+WEAPONS:                     \n2. Shotgun                  \n4. Nailgun                  \n\nPress 8 for alias help\n
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// Class help
+
+Help_scout
+{
+SCOUT Details:
+WEAPONS:
+   1. Crowbar
+   2. Shotgun
+   4. Nailgun
+GRENADES:
+   Concussion
+   Caltrop
+SPECIAL SKILL:
+   Display Flag Status.
+}
+
+Help_sniper
+{
+SNIPER Details:
+WEAPONS:
+   1. Crowbar
+   2. Sniper Rifle
+   3. Auto Rifle
+   4. Nailgun
+GRENADE:
+   Hand Grenade
+SPECIAL SKILL:
+   Toggle Rifle Zoom
+}
+
+Help_soldier
+{
+SOLDIER Details:
+WEAPONS:
+   1. Crowbar   
+   2. Shotgun
+   3. Super Shotgun
+   5. Rocket Launcher
+GRENADES:
+   Hand Grenade
+   Nail Grenade
+SPECIAL SKILL:
+   Reload
+}
+
+Help_demoman
+{
+DEMOLITIONS MAN Details:
+WEAPONS:
+   1. Crowbar
+   2. Shotgun
+   4. Grenade Launcher
+   5. Pipebomb Launcher
+GRENADES:
+   Hand Grenade
+   Mirv Grenade
+SPECIAL SKILL:
+   Detonate Pipebombs
+OTHER:
+   Set Detpack : +det5,+det20,+det50
+}
+
+Help_medic
+{
+MEDIC Details:
+WEAPONS:
+   1. Medikit/BioWeapon
+   2. Shotgun
+   3. Super Shotgun
+   5. Super Nailgun
+GRENADES:
+   Hand Grenade
+   Concussion Grenade
+SPECIAL SKILL:
+   Select Medikit
+}
+
+Help_hwguy
+{
+HEAVY WEAPONS GUY Details:
+WEAPONS:
+   1. Crowbar
+   2. Shotgun
+   3. Super Shotgun
+   5. Assault Cannon
+GRENADES:
+   Hand Grenade
+   Mirv Grenade
+SPECIAL SKILL:
+   Select Assault Cannon
+}
+
+Help_pyro
+{
+PYRO Details:
+WEAPONS:
+   1. Crowbar
+   2. Shotgun
+   4. Flamethrower
+   5. Incendiary Cannon
+GRENADES:
+   Hand Grenade
+   Napalm Grenade
+SPECIAL SKILL:
+   Select Flamethrower
+}
+
+Help_spy
+{
+SPY Details:
+WEAPONS:
+   1. Knife
+   2. Tranquilizer Gun
+   3. Super Shotgun
+   4. Nailgun
+GRENADES:
+   Hand Grenade
+   Hallucinogenic Grenade
+SPECIAL SKILL:
+   Open Disguise menu
+}
+
+Help_engineer
+{
+ENGINEER Details:
+WEAPONS:
+   1. Spanner
+   2. RailGun
+   3. Super Shotgun
+GRENADES:
+   Hand Grenade
+   EMP Grenade
+SPECIAL SKILL:
+   Open Build menu
+}
+
+Help_civilian
+{
+CIVILIAN Details:
+WEAPONS:
+    None
+
+GRENADES:
+    None
+
+SPECIAL SKILL:
+    None
+}
+
+Help_classhelp2
+{
+
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////
+// MATCH SCORING
+Match_results
+{
+=------= MATCH RESULTS =------=
+}
+
+Match_draw
+{
+ DRAW 
+}
+
+Match_winner
+{
+%s defeated %s
+}
+
+Match_losers3
+{
+and %s
+}
+
+Match_losers4
+{
+, %s
+}
+
+Match_team
+{
+
+=------= TEAM%s RESULTS =------=
+%s players. 
+}
+
+Match_teamdump
+{
+%s points, %s unaccounted for.
+%s team score.
+}
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// Maps
+
+// All centered for now
+$position -1 0.7
+$effect 2
+// This is the final color
+$color 200 200 200
+// This is the highlight color
+$color2 240 110 0
+// This is the time it takes to fade each character
+$fadein 0.01
+// This is the amount of time the highlight lags behind the leading edge of the text
+$fxtime 0.25
+// How long to hold the message on the screen (after it scans out)
+$holdtime 3.5
+// How long it takes to fade out the message after holding
+$fadeout 1.5
+
+
+
+
+
+
+
+Title_SelectYourTeam
+{
+Select a Manufacturer
+}
+
+Title_SelectYourClass
+{
+Select a Vehicle
+}
+
+Title_CurrentlyOnYourTeam
+{
+There are %d on your team
+}
+
+// SaRcaZm - V3 - Start
+Title_Statistics
+{
+Statistics
+}
+Title_3DModel
+{
+Vehicle
+}
+Title_3DModel_Rotate
+{
+Click and drag in this window to rotate model
+}
+Title_Select_Car
+{
+Select your car
+}
+Title_Manufacturer
+{
+Make
+}
+Title_Model
+{
+Model
+}
+// SaRcaZm - V3 - End
+// SaRcaZm - V4 - Start
+// Scoreboard
+Best_Lap
+{
+Best Lap
+}
+Race_Time
+{
+Race Time
+}
+Position
+{
+Position
+}
+Car
+{
+Car
+}
+// SaRcaZm - V4 - End
+// SaRcaZm - V5 - Start
+Title_Main_Menu
+{
+Main Menu
+}
+Title_CustomiseYourCar
+{
+Customise Your Car
+}
+Title_PartInfo
+{
+New Part:
+}
+Title_Part
+{
+Part
+}
+// SaRcaZm - V5 - End
+// SaRcaZm - V6 - Start
+Title_Parts
+{
+Parts Bought
+}
+Label_Money
+{
+Money
+}
+// SaRcaZm - V6 - End
+// SaRcaZm - V7 - Start
+Title_MiscCustomise
+{
+Misc
+}
+// SaRcaZm - V7 - End
+
+// other menu text
+Menu_OK
+{
+OK
+}
+
+Menu_Cancel
+{
+CANCEL
+}
+
+Menu_Spectate
+{
+SPECTATE
+}
+Spec_Mode_Inset0
+{
+Inset Window Off
+}
+
+Spec_Mode_Inset1
+{
+Inset Chase-Camera Mode
+}
+
+Spec_Mode_Inset2
+{
+Inset First Person Mode
+}
+
+Spec_Mode_Inset3
+{
+Inset Map Mode
+}
+
+// Spectator Menu
+Spec_Mode1
+{
+Locked Chase-Camera Mode
+}
+
+Spec_Mode2
+{
+Free Chase-Camera Mode
+}
+
+Spec_Mode3
+{
+Free-Look Mode
+}
+
+Spec_Mode4
+{
+First Person Mode
+}
+
+Spec_Mode5
+{
+Overview Map Mode
+}
+
+Spec_NoTarget
+{
+No valid targets. Cannot switch to Chase-Camera Mode.
+}
+
+Spec_Help
+{
+ENTER to Play  FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes
+}
+
+Spec_Only_Help
+{
+DUCK to Change Inset Mode  FIRE for Next Target  ALT-FIRE for Prev Target  JUMP to Change Modes
+}
+
+Spec_Help2
+{
+Your text messages can only be seen by other Spectators
+}
+
+Directed
+{
+Auto
+}
+
+Spectators
+{
+Spectators
+}
+
+Unassigned
+{
+Unassigned
+}
+
+// Scoreboard
+TEAMS
+{
+TEAMS
+}
+
+PLAYERS
+{
+PLAYERS
+}
+
+CLASS
+{
+CLASS
+}
+
+SCORE
+{
+SCORE
+}
+
+DEATHS
+{
+DEATHS
+}
+
+LATENCY
+{
+LATENCY
+}
+
+VOICE
+{
+VOICE
+}
+
+
+Game_unknown_command
+{
+HL Rally Cannot Execute command: %s
+}
+
+
+Mic_Volume
+{
+Mic Volume
+}
+
+Speaker_Volume
+{
+Speaker Volume
+}
+
+Voice_Properties
+{
+Voice Properties
+}
+
+Map_Description_not_available
+{
+Map Description not available.
+}
+
+Player
+{
+player
+}
+
+Player_plural
+{
+players
+}
+
+Muted
+{
+You have muted %s.
+}
+
+Unmuted
+{
+You have unmuted %s.
+}
+
+No_longer_hear_that_player
+{
+You will no longer hear that player speak.
+}

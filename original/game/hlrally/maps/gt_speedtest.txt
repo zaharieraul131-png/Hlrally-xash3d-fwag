@@ -1,0 +1,71 @@
+**********************************************
+gt_speedtest
+by Creme - creme@hlrally.net
+http://www.hlrally.net/
+**********************************************
+
+A very simple O-ring track to test the highest speed of 
+each car, became quite popular, so I've decided to polish
+it up somewhat and unleash it for the community!
+
+Watch those signs near the sides of the road!
+- Creme
+
+**********************************************
+Updates
+16 Oct 2003
+Releasing new version updated with 32 spawn points
+and some clever clip brush usage on some of the annoying barriers
+on the side of the road which cause some major headaches if you hit 
+em ;)
+Added more waypoints to make the bots far smoother on the long bends.
+
+**********************************************
+Map Information
+Title		:  Speed test
+Author(s)	:  Michael Danzo, aka Creme
+			9 March, 2003
+			Original Design
+
+Email Address	:  creme@hlrally.net
+
+Filename	:  gt_speedtest.bsp
+Filesize	:  1.16 megs unzipped
+Date		:  9-March-2003
+Description	:  Racing Circuit
+
+**********************************************
+Player Information
+
+Single Player		:  No
+Multiplayer		:  Yes
+Difficulty Setting 	:  n/a
+Map Type                :  GT Racing Circuit (HL Rally RC 1.0)
+New Textures		:  No, HL-Rally Textures
+New Sounds		:  No
+Players			:  8-32 Players
+
+**********************************************
+Construction
+
+Base		:  Scratch
+Editor Used	:  Worldcraft 3.4
+Build Time	:  In work
+Known bugs	:  I think you can still get behind the trees
+		   Bots may get confused on the banked turns.
+
+**********************************************
+Distribution
+
+	Please do not use this level as a base. 
+	Contact me if you have any questions - creme@hlrally.net
+	Copyright (C) 2003 Michael Danzo
+	All rights reserved.
+
+**********************************************
+Special Thanks
+	
+	Special thanks to the HL-Rally team for testing the track,
+	and feedback
+
+**********************************************

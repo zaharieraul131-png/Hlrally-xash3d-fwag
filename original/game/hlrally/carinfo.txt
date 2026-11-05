@@ -1,0 +1,189 @@
+// This is the car info file
+// Don't change the values in here because only the
+// server-side file effects the cars attributes
+
+// Engine, Weight and EngineSample are just text
+// Acceleration, Handling and TopSpeed are all in % (must add up to 240)
+// Width and Length are just integers
+
+// xxxLightDst is the displacement from the origin extended backwards towards the camera
+// xxxLightWidth is the distance between the two lights
+// xxxLightHeight is the distance off the ground
+
+[Citroen]
+{xsara}
+DisplayName=Xsara
+Weight=1230 kilos
+Acceleration=80
+Handling=80
+TopSpeed=80
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=48(kg/m)
+GearBox=6-Speed
+BrakeLightDst=21.165
+BrakeLightWidth=5.373
+BrakeLightHeight=9.62
+HeadLightDst=19.5
+HeadLightWidth=6.2
+HeadLightHeight=6.8
+
+[Foam]
+{locust}
+DisplayName=Locust
+Weight=1230 kilos
+Acceleration=80
+Handling=90
+TopSpeed=70
+Transmission=4WD
+HorsePower=275(bhp)
+Torque=44(kg/m)
+GearBox=6-Speed
+BrakeLightDst=17.2
+BrakeLightWidth=5.65
+BrakeLightHeight=14
+HeadLightDst=19.5
+HeadLightWidth=6.2
+HeadLightHeight=6.8
+
+[Hyundai]
+{accent}
+DisplayName=Accent
+Weight=1230 kilos
+Acceleration=85
+Handling=75
+TopSpeed=80
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=59(kg/m)
+GearBox=6-Speed
+BrakeLightDst=22.73
+BrakeLightWidth=5.92
+BrakeLightHeight=9.5
+HeadLightDst=19.5
+HeadLightWidth=6.5
+HeadLightHeight=6.8
+
+[Mitsubishi]
+{evo7}
+DisplayName=Evo 7
+Weight=1230 kilos
+Acceleration=90
+Handling=80
+TopSpeed=70
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=48(kg/m)
+GearBox=6-Speed
+BrakeLightDst=23.3
+BrakeLightWidth=6.0
+BrakeLightHeight=10
+HeadLightDst=19.5
+HeadLightWidth=6.5
+HeadLightHeight=6.8
+
+[Peugeot]
+{206}
+DisplayName=206
+Weight=910 kilos
+Acceleration=85
+Handling=85
+TopSpeed=70
+Transmission=4WD
+HorsePower=250(bhp)
+Torque=40(kg/m)
+GearBox=6-Speed
+BrakeLightDst=20.4
+BrakeLightWidth=5.8
+BrakeLightHeight=11
+HeadLightDst=19.5
+HeadLightWidth=6.2
+HeadLightHeight=6.8
+
+[Skoda]
+{octavia}
+DisplayName=Octavia
+Weight=1230 kilos
+Acceleration=75
+Handling=75
+TopSpeed=90
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=45(kg/m)
+GearBox=6-Speed
+BrakeLightDst=24.5
+BrakeLightWidth=4.5
+BrakeLightHeight=10.2
+HeadLightDst=19.5
+HeadLightWidth=6.5
+HeadLightHeight=6.8
+
+{fabia}
+DisplayName=Fabia
+Weight=1230 kilos
+Acceleration=75
+Handling=75
+TopSpeed=90
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=45(kg/m)
+GearBox=6-Speed
+BrakeLightDst=19.0
+BrakeLightWidth=5.3
+BrakeLightHeight=10.2
+HeadLightDst=19.5
+HeadLightWidth=6.5
+HeadLightHeight=6.8
+
+[Subaru]
+{impreza2002}
+DisplayName=Impreza 2002
+Weight=1230 kilos
+Acceleration=80
+Handling=85
+TopSpeed=75
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=48(kg/m)
+GearBox=6-Speed
+BrakeLightDst=23.3
+BrakeLightWidth=5.5
+BrakeLightHeight=10.5
+HeadLightDst=19.5
+HeadLightWidth=6.5
+HeadLightHeight=6.8
+
+[Toyota]
+{celica}
+DisplayName=Celica
+Weight=1230 kilos
+Acceleration=80
+Handling=75
+TopSpeed=85
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=48(kg/m)
+GearBox=6-Speed
+BrakeLightDst=22.3
+BrakeLightWidth=4.5
+BrakeLightHeight=10.2
+HeadLightDst=19.5
+HeadLightWidth=6.5
+HeadLightHeight=6.8
+
+{corolla}
+DisplayName=Corolla
+Weight=1230 kilos
+Acceleration=80
+Handling=70
+TopSpeed=90
+Transmission=4WD
+HorsePower=300(bhp)
+Torque=48(kg/m)
+GearBox=6-Speed
+BrakeLightDst=22.0
+BrakeLightWidth=6.0
+BrakeLightHeight=12.0
+HeadLightDst=19.5
+HeadLightWidth=6.5
+HeadLightHeight=6.8

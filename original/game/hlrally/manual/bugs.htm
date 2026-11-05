@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+<TITLE> HLR Manual </TITLE>
+
+<link rel="stylesheet" href="main_style.css" type="text/css">
+
+</HEAD>
+
+<BODY BGCOLOR=#292929 background="images/bg_stripes.gif" text=#FFFFFF topmargin=0 leftmargin=0 link=#FFFFFF MARGINWIDTH=0 MARGINHEIGHT=0>
+
+<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0 WIDTH=100% height=100%>
+
+	<TR>
+	<TD VALIGN=TOP ALIGN=LEFT BGCOLOR=#535353><IMG SRC="images/left_bg.gif" width=50 height=17><BR><IMG SRC="images/left_heading.gif" width=50 height=30></TD>
+	<TD VALIGN=TOP ALIGN=LEFT WIDTH=100%>
+	<IMG SRC="images/bg_clear.gif" width=0 height=17><BR>	
+	<IMG SRC="images/heading_KnownBugs.gif"></TD>
+	<TD VALIGN=TOP ALIGN=RIGHT BGCOLOR=#535353 background="images/right_bg.gif"><IMG SRC="images/right_bg.gif"></TD>
+	</TR>
+
+	<TR>
+	<TD VALIGN=TOP ALIGN=LEFT BGCOLOR=#535353 background="images/left_bg.gif"><IMG SRC="images/left_bg.gif"></TD>
+	<TD VALIGN=TOP ALIGN=LEFT WIDTH=100% HEIGHT=100%>
+	
+
+<TABLE CELLPADDING=10 width=100%><TR><TD>
+
+	<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0>
+	<TR>
+	<TD><IMG SRC="images/sub_heading_left.gif"></TD>
+	<TD BGCOLOR=#535353 background="images/sub_heading_bg.gif" width=250>
+	<TABLE CELLPADDING=3 id="subheading"> <I><B>&nbsp; :: Serious Bugs &nbsp; </B></I></TABLE>
+	</TD>
+	<TD><IMG SRC="images/sub_heading_right.gif"></TD>
+	</TR>
+	</TABLE>
+	<BR>
+
+	<BR>
+	<DIV ALIGN=JUSTIFY>
+		<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=3>
+		<TR BGCOLOR=#141414><TD align=center width=200> <B>Bug</B> </TD><TD align=center> <B>Description</B> </TD><TD align=center> <B>Work Arounds</B> </TD></TR>
+
+		<TR><TD> Spawn Under Road </TD><TD>This is a very rare bug which causes the car to spawn under the road at the start of the race.</TD><TD>Hit the 'kill' button immediately to respawn at another start point.</TR>
+		<TR><TD> Crash on 'Select Car' </TD><TD>On some computers the game may crash when 'Select Car' is selected.</TD><TD>Set 'rally_partslist' to '0' in your config.cfg</TR>
+		</TABLE>
+	</DIV>
+
+	<BR>
+	<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0>
+	<TR>
+	<TD><IMG SRC="images/sub_heading_left.gif"></TD>
+	<TD BGCOLOR=#535353 background="images/sub_heading_bg.gif" width=250>
+	<TABLE CELLPADDING=3 id="subheading"> <I><B>&nbsp; :: Visual Bugs &nbsp; </B></I></TABLE>
+	</TD>
+	<TD><IMG SRC="images/sub_heading_right.gif"></TD>
+	</TR>
+	</TABLE>
+
+	<BR>
+	<DIV ALIGN=JUSTIFY>
+		<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=3>
+		<TR BGCOLOR=#141414><TD align=center width=200> <B>Bug</B> </TD><TD align=center> <B>Description</B> </TD><TD align=center> <B>Work Arounds</B> </TD></TR>
+		<TR><TD> VGUI Images Disappear </TD><TD>This is a bug with the VGUI code provided by Valve.</TD><TD>Use the console commands to control the MP3 player if you can no see the buttons. The VGUI menu shouldn't be adversely affected.</TR>
+		<TR><TD> Spawn on Nose </TD><TD>Sometimes the car will spawn with its nose in the ground or up in the air.</TD><TD>The car will reset to onto it's wheels as soon as the announcer says 'Go'</TR>
+		<TR><TD> Spawn at Wrong Angle </TD><TD>Sometimes the car will spawn at the wrong angle.</TD><TD>The car will reset to the right angle as soon as the announcer says 'Go'</TR>
+		<TR><TD> Best Lap on HUD </TD><TD>The best lap isn't shown on the HUD sometimes.</TD><TD>The correct best lap will be shown on the scoreboard.</TR>
+		<TR><TD> Place on HUD </TD><TD>Sometimes the place shows '0' on the HUD.</TD><TD>The place will be updated when you pass through the next checkpoint.</TR>
+		<TR><TD> Parts List on Main Menu </TD><TD>Parts disappear off the parts list if rally_partslist is set to 1.</TD><TD>This is a visual glitch. The parts still have an affect on your car.</TR>
+		</TABLE>
+	</DIV>
+
+	<BR>
+	<TABLE CELLSPACING=0 CELLPADDING=0 BORDER=0>
+	<TR>
+	<TD><IMG SRC="images/sub_heading_left.gif"></TD>
+	<TD BGCOLOR=#535353 background="images/sub_heading_bg.gif" width=250>
+	<TABLE CELLPADDING=3 id="subheading"> <I><B>&nbsp; :: Mapping Bugs &nbsp; </B></I></TABLE>
+	</TD>
+	<TD><IMG SRC="images/sub_heading_right.gif"></TD>
+	</TR>
+	</TABLE>
+
+	<BR>
+	<DIV ALIGN=JUSTIFY>
+		<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=3>
+		<TR BGCOLOR=#141414><TD align=center width=200> <B>Bug</B> </TD><TD align=center> <B>Description</B> </TD><TD align=center> <B>Work Arounds</B> </TD></TR>
+		<TR><TD> env_glow </TD><TD>env_glow aren't drawn properly</TD><TD>Use env_sprite with mode set to additive (5) instead.</TR>
+		<TR><TD> func_breakable </TD><TD>func_breakable don't break don't work in some situations.</TD><TD>Include a trigger which sets off the breaking.</TR>
+		</TABLE>
+	</DIV>
+
+</TD></TR></TABLE>
+
+	</TD>
+	<TD VALIGN=TOP ALIGN=RIGHT BGCOLOR=#535353 background="images/right_bg.gif"><IMG SRC="images/right_bg.gif"></TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>

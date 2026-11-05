@@ -1,0 +1,46 @@
+**********************************************
+ab_baume - Baume
+by KornyBizkit - kornybizkit@hlrally.net
+**********************************************
+Map Information
+Title		:  Baume (build 2.0)
+Author(s)	:  Brian Durar, aka KornyBizkit
+			Original design
+
+Email Address	:  kornybizkit@hlrally.net
+
+Filename	:  ab_baume.bsp
+Filesize	:  4.45 megs unzipped
+Date		:  3/30/2004
+Description	:  Rally Circuit
+
+**********************************************
+Player Information
+
+Single Player		:  Yes
+Multiplayer		:  Yes
+Difficulty Setting 	:  n/a
+Map Type                :  A to B Rally
+New Textures		:  Yes
+New Sounds		:  No
+
+**********************************************
+Construction
+
+Base		:  Scratch
+Editor Used	:  Valve Hammer Editor 3.4
+Known bugs	:  None
+
+**********************************************
+Distribution
+
+	Don't use this level as a base. Contact me if you have any questions;
+	kornybizkit@hlrally.net
+
+**********************************************
+Special Thanks
+	
+	Special thanks to Xerent, Blazeeer, The_Postman for textures.
+
+**********************************************
+

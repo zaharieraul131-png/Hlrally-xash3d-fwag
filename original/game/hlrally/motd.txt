@@ -1,0 +1,15 @@
+ Welcome To HL Rally
+======================
+Beta Release - Version 1
+April 13th 2004
+======================
+
+Congratulations on downloading the worlds first, and only Rally Racing total conversion for the game of the year, Half-life.
+The HL Rally team hopes that you have as much fun playing it as we did creating it.
+
+Please visit our web-site for news and updates.
+http://www.hlrally.net/
+
+Server Admins: 
+To change this Message of The Day, edit halflife/hlrally/motd.txt
+To remove this Message of The Day, simply delete motd.txt

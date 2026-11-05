@@ -1,0 +1,10 @@
+[Text]
+Normal=#ACACAC
+Current=#FFFFFF
+NormalBG=#505050
+SelectedBG=#1F4A69
+Font=Arial
+
+
+Made by: Fernando "vADa" Maclen
+E-Mail : vada@mapland.com.ar

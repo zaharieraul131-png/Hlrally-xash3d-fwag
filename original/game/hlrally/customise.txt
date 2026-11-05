@@ -1,0 +1,54 @@
+// This is the car customisation file
+[Tyres]
+{Sports}
+Desc=Sports\n\nWhile they don't bring the same performance as the other tires, they are very cost effective.
+Cost=300
+Value=Handling + 3
+
+{Performance}
+Desc=Performance\n\nIf you want serious performance, these are the tires for you. Not quite rally quality, but still a great choice.
+Cost=500
+Value=Handling + 5
+
+{Rally}
+Desc=Rally\n\nUsed by rally teams across the world, these tires will provide the best traction of all.
+Cost=700
+Value=Handling + 7
+
+[Exhaust]
+{MidPipe}
+Desc=MidPipe\n\nA midpipe replaces the stock Catalytic Converter to produce a smoother flow and reduce temperatures around the engine.
+Cost=200
+Value=TopSpeed + 4
+
+{Cat-Back}
+Desc=Cat-Back\n\nCat-Back Exhaust systems are the easist way to improve performance by removing poor flowing stock exhausts.
+Cost=550
+Value=TopSpeed + 6
+
+{Turbo-Back}
+Desc=Turbo-Back\n\nTurbo-Back Exhaust systems open up exhaust passages starting from the turbo, then going through a downpipe, followed by a high-flow Catalytic Converter and exiting through a high-flow muffler. Only avaliable for forced induction vehicles.
+Cost=800
+Value=TopSpeed + 8
+
+[Intercooler]
+{Small Core}
+Desc=Small Core\n\nSmall Core Intecoolers are best fitted with smaller turbos to keep boost creep low or non-existent, while still allowing an increase in turbo boost.
+Cost=1500
+Value=Acceleration + 4
+
+{Large Core}
+Desc=Large Core\n\nLarge Core Intercoolers work best when matched with larger, single turbo systems where turbo boost will be vastly increased.
+Cost=3100
+Value=Acceleration + 8
+
+[Turbo]
+{Single Turbo}
+Desc=Single Turbo\n\nA Single (larger) Turbo will flow more air molecules into the engine, which provides more power, but a more abrupt delivery.
+Cost=4500
+Value=TopSpeed + 15; Acceleration + 15
+
+{Twin Turbo}
+Desc=Twin Turbo\n\nTwin Turbo systems work together, to help reduce turbo-lag. The first turbo spins up quickly without much lag, while the second, larger turbo spins up for higher speeds to help increase boost.
+Cost=3200
+Value=TopSpeed + 8; Acceleration + 15

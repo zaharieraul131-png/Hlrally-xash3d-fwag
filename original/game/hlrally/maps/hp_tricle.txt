@@ -1,0 +1,47 @@
+**********************************************
+hp_tricle - Tricle
+by Creme - creme@hlrally.net
+**********************************************
+Map Information
+Title		:  Tricle (build 1.0)
+Author(s)	:  Michael Danzo, aka Creme
+			Original design
+
+Email Address	:  creme@hlrally.net
+
+Filename	:  hp_tricle.bsp
+Filesize	:  0.5 megs unzipped
+Date		:  5/05/2004
+Description	:  Hot Potato Arena
+
+**********************************************
+Player Information
+
+Single Player		:  No
+Multiplayer		:  Yes
+Difficulty Setting 	:  n/a
+Map Type                :  Hot Potato
+New Textures		:  Yes
+New Sounds		:  No
+
+**********************************************
+Construction
+
+Base		:  Scratch
+Editor Used	:  Valve Hammer Editor 3.4
+Known bugs	:  None
+
+**********************************************
+Distribution
+
+	Don't use this level as a base. Contact me if you have any questions;
+	creme@hlrally.net
+
+**********************************************
+Special Thanks
+	
+	Special thanks to Asperin for some of the textures.
+	The rest of the HL-Rally team for their support.
+
+**********************************************
+

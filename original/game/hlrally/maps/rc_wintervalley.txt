@@ -1,0 +1,51 @@
+**********************************************
+rc_wintervalley - Winter Valley
+by KornyBizkit - kornybizkit@hlrally.net
+**********************************************
+Map Information
+Title		:  Wintervalley (build 2.0)
+Author(s)	:  Brian Durar, aka KornyBizkit
+			Rebuilt every brush from scratch,
+			kept only 1/4th of original design.
+		   Maz_Inject
+			Original design
+
+Email Address	:  kornybizkit@hlrally.net
+		   Maz_Inject - unknown
+
+Filename	:  rc_wintervalley.bsp
+Filesize	:  2.03 megs unzipped
+Date		:  10/24/2003
+Description	:  Rally Circuit
+
+**********************************************
+Player Information
+
+Single Player		:  Yes
+Multiplayer		:  Yes
+Difficulty Setting 	:  n/a
+Map Type                :  Rally Circuit
+New Textures		:  No
+New Sounds		:  No
+Players			:  8-32 Players
+
+**********************************************
+Construction
+
+Base		:  rr_redvalley by Maz_Inject
+Editor Used	:  Valve Hammer Editor 3.4
+Known bugs	:  None
+
+**********************************************
+Distribution
+
+	Don't use this level as a base. Contact me if you have any questions;
+	kornybizkit@hlrally.net
+
+**********************************************
+Special Thanks
+	
+	Special thanks to Tayl0r for the environment sky.
+
+**********************************************
+

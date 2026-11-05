@@ -1,0 +1,62 @@
+=============================
+    HL:RALLY TEXTURE WAD
+EXCLUSIVELY FOR HL-RALLY USE
+	Version 5
+
+      10 January, 2003
+
+      Compiled by Creme
+      creme@hlrally.net
+=============================
+
+Authors 
+
+
+FilthyPanda
+Creme
+X-Tender
+BackSlider
+diablone
+Demize99
+StrikeEagle
+HypnoTech
+(May be others!)
+
+Special thanks to:
+Chainsaw (texture resizing/optimising)
+Wadfather (some textures are likely to be sampled off these)
+Shaderlabs (reference and samples)
+
+Everyone else who has submitted and/or located free textures.
+
+=============================
+
+Textures in this wad have been created by many of the team 
+members including myself. We have made these textures available 
+exclusively for Half-Life Rally use. If you wish to use these 
+textures for other purposes you must contact the authors 
+mentioned, or myself or diablone if its unclear.
+
+The WAD also includes control textures like sky, clip, hint, 
+etc, so that you wont need to use the halflife.wad anymore!
+
+Some of the originals of these wads have been found in the archives 
+of the old HL-Rally forums, so I'm unaware of any issues with 
+whether they are for public use or not. If there are any problems, 
+issues or whatever (there always is with this sort of thing) please 
+politely contact me immediately!
+
+I remind prospective HL-Rally mappers that the HL-Rally Team 
+expects you to utilise these textures rather than HalfLife 
+and CS textures to give the HL-Rally mod the unique total conversion
+feel that we are striving the create.
+
+=============================
+Previous major updates:
+22 April 2001
+Mid March 2002
+
+Copyright HL-Rally Team 2002
+Creme - Michael Danzo
+creme@hlrally.net
+=============================

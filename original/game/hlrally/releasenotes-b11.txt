@@ -1,0 +1,64 @@
+Half-Life Rally Beta 1.1
+Released 06 May 2004
+
+Code
+====
+Fixed: Can no longer select model through Steam Browser
+Fixed: MP3 volume and balance being reset on change song.
+Fixed: mp_timelimit is now functional
+Fixed: mp_timelimit and mp_fraglimit don't take effect till end race
+Fixed: mp_prerace, mp_numlaps & mp_racemode are no longer set in rally.cfg
+Fixed: rally_manual 0 is default now
+Fixed: Spectator overlay showing when choosing car
+Fixed: Gears flipping between neutral and first when not moving
+Fixed: Wheels didn't rotate
+Fixed: Camera gets reset at beginning of race
+Fixed: Spectator and Bot commands now in kb_act.lst
+Fixed: Added our default setup to kb_def.lst
+Fixed: Radar didn't show in in-car view
+Fixed: Bots disappearing with mp_racemode 2
+Fixed: Hot Potato mode is now functional again
+Fixed: Possible crash on startup
+Fixed: Sometimes ab_ and hp_ race modes wouldn't register
+Fixed: Sometimes map change wouldn't register
+Fixed: Car customisations disappearing (?)
+Fixed: FPS chunking issues caused by non existant player models being passed into studio model renderer / rally effects code.
+Fixed: Restoration renderstate after render of all chrome / triapi calls. (should fix any glow rendering problems people had?)
+Fixed: Re-enabled back face culling for models.
+Fixed: Cars drop instantly to the ground, rather than waiting for finish of 3,2,1, go sequence.
+Fixed: Model flipping at start of race.
+Fixed: Bots are enabled for track development purposes.
+Fixed: Line at bottom of Steam BG
+Fixed: Popping noise from VGUI sounds
+Fixed: Impreza engine sounds better
+Fixed: General optimisations throughout. Should gain a ~10% increase in framerate.
+Fixed: Other miscellaneous things
+Added: mapinfos for each map
+Added: Timer to HUD for Hot Potato Mode
+Added: Blank autoexec.cfg and userconfig.cfg to fix some issues
+Added: New Maps (see below)
+
+Maps
+====
+ab_baume:
+1. Smoothed out some terrain so the car doesnt pop into the air so often.
+2. Added fences and checkpoints to keep players from cutting a few corners.
+3. Added 10 seconds to the start time
+4. Added player_respawn entities so typing kill wont send the player back to the start.
+5. Fixed two sticky points in the uphill turns
+
+rc_wintervalley
+1. Added 15 seconds to start time
+2. Removed a bunch of info_starts so you dont start in the very back.
+
+rc_wintervalley2
+1. Added 15 seconds to start time
+2. Removed a bunch of info_starts so you dont start in the very back.
+3. Added info_player_respawn so typing kill wont send you back to start.
+
+rc_mistress
+1. Added respawn points
+2. Added detail textures (r_detailtextures 1 to enable)
+
+hp_carpark
+1. New!

@@ -1,0 +1,152 @@
+// This is the animation definition file
+// Max Length: 5120 chars (including spaces)
+// Don't change any of these animations until you ask yourself 1 question:
+
+// Do you feel lucky?
+// Well, do you punk?
+//				Dirty Harry
+
+// Basically, the screen goes from <-10, -10, -10> to <10, 10, -10>
+// and the z value goes into the screen. Maximum number of nodes is 8.
+// Everything in the nodes is relative to the origin and angles given under General
+
+// Unless there is a group of animations (e.g. Customise....) when it is relative
+// to the General section under the 1st animation (e.g. CustomiseNoAnim)
+// A return animation is defined as starting at Length
+
+// Play from there....And good luck to you
+
+[Numbers]
+{General}
+Origin=90, 5, 0
+Angle=0, 0, 0
+Length=1.0
+Scale=4.0
+
+{Node0}
+Position=0, 20, 15
+Angle=0, 0, 0
+Time=0.0
+
+{Node1}
+Position=0, 3, -5
+Angle=-180, -180, -180
+Time=0.2
+
+{Node2}
+Position=0, 10, -10
+Angle=-90, 0, -90
+Time=0.4
+
+{Node3}
+Position=0, 1, -15
+Angle=0, 180, 0
+Time=0.6
+
+[CustomiseNoAnim]
+{General}
+Origin=60, -32, 5
+Angle=0, 90, 20
+Length=999
+Scale=1.0
+
+{Node0}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=999
+
+[CustomiseButton0]
+{General}
+Scale=1.0
+
+{Node0}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=0.0
+
+{Node1}
+Position=-18, 17, -38
+Angle=0, 0, 10
+Time=0.4
+
+{Node2}
+Position=-18, 17, -38
+Angle=0, 0, 10
+Time=999
+
+{Node3}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=999.4
+
+[CustomiseButton1]
+{General}
+Scale=1.0
+
+{Node0}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=0.0
+
+{Node1}
+Position=-4, 12, -20
+Angle=15, 270, -20
+Time=0.4
+
+{Node2}
+Position=-4, 12, -20
+Angle=15, 270, -20
+Time=999
+
+{Node3}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=999.4
+
+[CustomiseButton2]
+{General}
+Scale=1.0
+
+{Node0}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=0.0
+
+{Node1}
+Position=-4, 12, -20
+Angle=345, 90, -20
+Time=0.4
+
+{Node2}
+Position=-4, 12, -20
+Angle=345, 90, -20
+Time=999
+
+{Node3}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=999.4
+
+[CustomiseButton3]
+{General}
+Scale=1.0
+
+{Node0}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=0.0
+
+{Node1}
+Position=-4, 35, -25
+Angle=45, 90, -20
+Time=0.4
+
+{Node2}
+Position=-4, 35, -25
+Angle=45, 90, -20
+Time=999
+
+{Node3}
+Position=0, 0, 0
+Angle=0, 0, 0
+Time=999.4

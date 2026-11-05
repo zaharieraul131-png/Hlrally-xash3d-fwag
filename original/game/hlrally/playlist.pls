@@ -1,0 +1,24 @@
+[playlist]
+File1=sound\music\HLRally - Get Psyched!.mp3
+Title1=Waste - Get Psyched!
+Length1=209
+File2=sound\music\HL Rally - Adrenaline.mp3
+Title2=Waste - Adrenaline
+Length2=171
+File3=sound\music\HL Rally - Slam the Pedal.mp3
+Title3=Waste - Slam the Pedal
+Length3=168
+File4=sound\music\HL Rally - Reflex.mp3
+Title4=Waste - Reflex
+Length4=175
+File5=http://64.236.34.196:80/stream/1038
+Title5=HitzRadio.com - #1 For All The Hits!
+Length5=-1
+File6=http://64.236.34.196:80/stream/1012
+Title6=Smoothbeats.com: Underground & Mainstream Hiphop Beats 24/7!
+Length6=-1
+File7=http://64.236.34.196:80/stream/1006
+Title7=CLASSICAL - Powered By Digitally Imported
+Length7=-1
+NumberOfEntries=7
+Version=2

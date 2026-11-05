@@ -1,0 +1,56 @@
+**********************************************
+ab_summit - Summit 
+by Demize99 & Creme
+http://www.hlrally.net
+
+I tight twisted snowy course which is incredibly
+slippery, be sure to brake hard and early before those
+tight turns. Be wary of downhill hairpin turns!
+
+**********************************************
+Map Information
+Title		:  ab_summit
+Author(s)	:  Demize99
+			Original design
+ 		   Jimmy Headdon, aka Denzil
+			1 March, 2003
+			Retexturing and Entity positioning.
+ 		   Michael Danzo, aka Creme
+			6 March, 2003
+			Detail additions, lighting revamp
+ 		   Michael Danzo, aka Creme
+			11 July, 2003
+			Revised brushwork on 2 corners.
+
+Email Address	:  demize99 - unknown at this time
+		   Creme - creme@hlrally.net
+
+Filename	:  ab_summit.bsp
+Filesize	:  5.0 megs unzipped
+Description	:  Rally: A to B Stage  - Be the first across the finish line...
+
+**********************************************
+Player Information
+
+Single Player		:  No
+Multiplayer		:  Yes
+Difficulty Setting 	:  n/a
+Map Type                :  Rally: A to B Stage  (HL Rally RC 1.0)
+New Textures		:  No, HLRally Textures
+New Sounds		:  No
+Players			:  8-32 Players
+
+**********************************************
+Construction
+
+Base		:  Scratch
+Editor Used	:  Worldcraft 3.4
+Known bugs	:  Can see other parts of the map thru sky intermittently
+
+**********************************************
+Distribution
+
+	Don't use this level as a base. Contact me if you have any questions;
+	creme@hlrally.net
+
+**********************************************
